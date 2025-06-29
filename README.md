@@ -194,7 +194,7 @@ ProxyIP:ProxyPORT:Username:Password
 
 **Requirements:** [NodeJS](https://nodejs.org/en/download)
 
-Clone TrafficerMC repo with Git Clone: `git clone https://github.com/RattlesHyper/TrafficerMC` or Download the Source Code, then navigate to the folder. and open Terminal/Command Prompt/PowerShell
+Clone TrafficerMC repo with Git Clone: `git clone https://github.com/ttwogit/TrafficerMC` or Download the Source Code, then navigate to the folder. and open Terminal/Command Prompt/PowerShell
 
 **Build Commands:**
 
@@ -206,4 +206,5 @@ Clone TrafficerMC repo with Git Clone: `git clone https://github.com/RattlesHype
 
 **Linux:** `build:linux`
 
-If you want to run from source code use `npm run dev`
+If you want to run from source code use `sudo apt-get update && sudo apt-get install -y xvfb && xvfb-run -a -s "-screen 0 1024x768x24 -ac +extension GLX +render -noreset" npm run dev
+` 
